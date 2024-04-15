@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Your Google API key
-API_KEY = 'AIzaSyB7mmAF8F3WG2tPSPQEUvw6FJCf_X_TNAU'
+API_KEY = os.getenv('GOOGLE_MAPS_API_KEY')
 
 # List of origin and destination pairs
 locations = [
